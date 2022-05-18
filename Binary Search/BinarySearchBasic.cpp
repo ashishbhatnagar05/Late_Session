@@ -10,6 +10,7 @@ int binarySearch(int arr[], int n, int target)
     {
         int midElement = arr[mid];
 
+        
         if (midElement == target)
             return mid;
 
